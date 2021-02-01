@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram App</title>
+    <!-- https://google.github.io/material-design-icons/#icon-font-for-the-web -->
+    <!-- Using via Google Web Fonts -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+    <!-- https://tailwindcss.com/docs/installation -->
+    <!-- Using Tailwind via CDN -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+
+    <!-- https://v3.vuejs.org/guide/installation.html#release-notes -->
+    <!-- Vue CDN -->
+    <script src="https://unpkg.com/vue@next"></script>
+</head>
+
+<!-- Credit: https://www.youtube.com/watch?v=v74SZBVMPa0 -->
+
+<body>
+    <div class="h-screen max-w-2xl mx-auto bg-gray-50">
+        <!-- Heading Text -->
+        <p class="uppercase text-pink-500 text-lg ml-5 font-semibold tracking-wide">
+            introduction
+        </p>
+        <h1 class="text-5xl font-extrabold ml-5">
+            Tailwind stories.
+        </h1>
+        <!-- End Heading Text -->
+
+        <!-- Profiles -->
+        <div class="flex justify-center items-center space-x-5 mt-3">
+            <!-- Each Profile -->
+            <div class="flex flex-col justify-center items-center">
+                <div class="border bg-gradient-to-tr from-yellow-400 to-pink-500 rounded-full p-1 relative">
+                    <button class="p-1 rounded-full bg-white focus:outline-none transform hover:rotate-6">
+                        <img class="h-24 w-24  rounded-full" src="http://placekitten.com/200/200" alt="you">
+                    </button>
+                    <button class="absolute bottom-0 right-2 text-xl text-white font-semibold 
+                        rounded-full w-8 h-8 bg-blue-500 hover:bg-blue-700 
+                        flex justify-center items-center
+                        border-4 border-white">+</button>
+                </div>
+                <p>you</p>
+            </div>
+            <div class="flex flex-col justify-center items-center ">
+                <div class="border bg-gradient-to-tr from-yellow-400 to-pink-500 rounded-full p-1">
+                    <button class="p-1 rounded-full bg-white focus:outline-none transform hover:rotate-6">
+                        <img class="h-24 w-24  rounded-full" src="http://placekitten.com/200/201" alt="kitty">
+                    </button>
+                </div>
+                <p>Kitty</p>
+            </div>
+            <div class="flex flex-col justify-center items-center ">
+                <div class="border bg-gradient-to-tr from-yellow-400 to-pink-500 rounded-full p-1">
+                    <button class="p-1 rounded-full bg-white focus:outline-none transform hover:rotate-6">
+                        <img class="h-24 w-24  rounded-full" src="http://placekitten.com/200/212" alt="pretty">
+                    </button>
+                </div>
+                <p>pretty123</p>
+            </div>
+            <div class="flex flex-col justify-center items-center ">
+                <div class="border bg-gradient-to-tr from-yellow-400 to-pink-500 rounded-full p-1">
+                    <button class="p-1 rounded-full bg-white focus:outline-none transform hover:rotate-6">
+                        <img class="h-24 w-24  rounded-full" src="http://placekitten.com/200/210" alt="cutecate">
+                    </button>
+                </div>
+                <p>cutecat</p>
+            </div>
+            <!-- End Each Profile -->
+        </div>
+        <!-- End Profile -->
+    </div>
+
+
+</body>
+
+</html>
